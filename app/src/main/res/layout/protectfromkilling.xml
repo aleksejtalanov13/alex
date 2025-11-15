@@ -1,0 +1,352 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Защита от случайного убийства телефона Алексом"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Я создатель Алекса и я пытаюсь защитить вас от этого так как возможно могут произойти страшные вещи так что одумайся и нажми назад Если тебе все равно найди случайный секретный код и введи его и нажми подтвердить"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/codeenter"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:hint="Введи код который нашел"
+				android:textColorHint="#607D8B" />
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/confirm"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Подтвердить"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF"
+				android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+				app:backgroundTint="@color/colorPrimary"
+				app:cornerRadius="8dp"
+				style="@style/Widget.MaterialComponents.Button" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Ответ от Алекса: Найди кнопку ХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА (ЗЛОДЕЙСКИЙ СМЕХ) Кнопки отличаются от тех которые ты видел в приложении"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button11"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button12"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button13"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button14"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button15"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button16"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button17"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button18"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button19"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button20"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button21"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button22"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button23"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button24"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button25"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear8"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button26"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button27"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button28"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+			<Button
+				android:id="@+id/button29"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Button"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
