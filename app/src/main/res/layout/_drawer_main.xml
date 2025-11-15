@@ -24,7 +24,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:padding="8dp"
-			android:text="Версия v1.31"
+			android:text="Версия v1.32"
 			android:textSize="12sp"
 			android:textColor="#000000" />
 		<TextView
@@ -32,7 +32,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:padding="8dp"
-			android:text="Теперь Алекс полностью адаптирован под новые Android"
+			android:text="Первый релиз на GitHub"
 			android:textSize="12sp"
 			android:textColor="#000000" />
 		<TextView
